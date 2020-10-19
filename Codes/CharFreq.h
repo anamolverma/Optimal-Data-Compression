@@ -2,6 +2,8 @@ static char char_array[127]={};
 static int char_freq[127]={};
 static int ack=0; //counts different character in file
 static int filesize=0;
+
+void file(){
   char ch;
   char f;
   int i=0;
@@ -66,3 +68,4 @@ static int filesize=0;
         fclose(fp1) ;
         fclose(fp2) ;
     }
+}
