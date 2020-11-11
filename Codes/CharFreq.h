@@ -31,7 +31,7 @@ void file(){
     {
         // Read the characters from the file
         // using fgetc() method
-        printf("File found successfully !\n");
+        printf("File found successfully!\nProcessing...\n");
         while ((ch=fgetc(fp1))!=EOF)
         {
           count=0;
