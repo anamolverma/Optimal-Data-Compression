@@ -18,10 +18,12 @@ cd Optimal-Data-Compression //change the working directory
 
 ## for compression:
 gcc -o a huff.c -lm
+
 ./a
 
 ## for decompression:
 gcc -o b unhuff.c -lm
+
 ./b
 
 ## Windows command prompt(cmd)
@@ -32,8 +34,10 @@ cd Optimal-Data-Compression //change the working directory
 
 ## for compression:
 gcc -o a huff.c
+
 .\a
 
 ## for decompression:
 gcc -o b unhuff.c
+
 .\b
